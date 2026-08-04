@@ -1,0 +1,19 @@
+# Virtual environment
+banking_env/
+venv/
+
+# Credentials
+.env
+
+# Data files (regenerable via pipeline)
+data/bronze/*.parquet
+data/silver/*.parquet
+data/gold/*.parquet
+*.duckdb
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
